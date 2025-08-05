@@ -1,4 +1,6 @@
 # webdev-notes
-notes of webdev repository
+notes of webdev repository.
 <br>
-author-hansraj
+#author-hansraj
+<br>
+first readme file.
