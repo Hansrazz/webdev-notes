@@ -1,0 +1,13 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color:#1b74e4;
+}
+#seach{
+    background-color: black;
+    color: white;
+}
+.aqua{
+    background-color: aqua;
+}

@@ -1,0 +1,72 @@
+
+/* text-align */
+h1{
+    text-align:center;
+    /*   text-align:right*/
+    /*  text-align:left */
+    /* apply to the box in which text is present not according to screen */
+    border:solid;
+    width:50%;
+    text-decoration:wavy red underline;
+    letter-spacing:10px;
+    font-family:papyrus;
+}
+ h3{
+    /* text-align:right; */
+    text-align:end;
+    /* text-decoration:underline; */
+    text-decoration: dotted red underline;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
+p{
+    text-align:right;
+    /* text-align:end; */
+    font-weight:600;
+    text-decoration:linethrough;
+    line-height:2.5 ;
+    font-size:15px;
+    font-family:impact;
+} 
+/* left or start and right or end are same */
+/* text-align:justify makes the text horizontally align proper */
+
+/* font weight */
+/* range 100 -900 */
+h2{
+    font-weight:normal;
+    /* font-weight 400 is normal as it increse it become dark and bold id 700 */
+}
+/*
+according to parents text weight 
+font-weight:bolder;
+font-weight:lighter; */
+
+/* text decoration */
+/* text-decoration:underline;
+text-decoration:overline;
+text-decoration:linethrough;*/
+  /* text-decoration-color:rgb(255,0,0); */
+
+  /* text-decoration:red underline; */
+
+  /* text-decoration-style:wavy;
+   text-decoration-style:dotted;
+    text-decoration-style:dashed;
+     text-decoration-style:double; */
+
+     a{
+        text-decoration:none;
+     }
+
+     /* line height */
+     /* line-height:normal;
+     line-height:2.5 */
+     /* it indicate 2.5 times normal line height size */
+
+/* letter spacing */
+/* horizontal space between character */
+/* letter-spacing:normal;
+letter-spacing:10px; */
+
+/* genrally font family written in group ,fist as main and other as backup font family  */

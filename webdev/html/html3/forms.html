@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="/action">
+        <!-- action attribute define what action needs to be performed when form is submitted and where the form data has to be transfeered -->
+        <input placeholder="form"> <br>
+        <!--used to create multiple form control using type attribute  -->
+        username
+        <input type="text" placeholder="enter your username"><bR>
+        <label> <!--label coneects text and input box-->
+            password
+            <input type="password" placeholder="enter password">
+        </label><br>
+
+        <div>
+
+            <label for="number">enter your number</label>
+
+            <input type="number" id="number" placeholder="enter your number"><br>
+            <!-- for in label and id in input type should be shame -->
+            <!-- id is unique name of element -->
+        </div>
+        <div>
+            <label for="time"> enter time</label>
+            <input type="time" id="time">
+        </div><br>
+        color
+        <input type="color">
+        <input type="date">
+
+
+        <div>
+            <label for="age"> i am 18+</label>
+            <input type="checkbox" name="age" id="age" checked / >
+        </div>
+
+
+
+
+        <button type="submit">submit</button>
+        <button type="button">hello</button> <!--normal button does nothimg-->
+        <button type="reset">reset</button>
+        <!-- in form button on submit send the data to action attribute specified locatipn or file -->
+
+<!-- button as input -->
+        <input type="button" value="click me">
+        <input type="submit" value="submit">
+        <!-- value shows what appear on button -->
+    </form>
+</body>
+
+</html>

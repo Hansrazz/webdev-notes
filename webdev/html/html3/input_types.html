@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/server">
+        <div>
+            <label for="agee"> i am 18+</label>
+
+            <input type="checkbox" name="age" id="agee">
+            <label for="age"> i am 25+</label>
+            <input type="checkbox" name="age" id="age" checked /">
+            <!-- checked / automatically checked the box -->
+
+            <button>submit</button>
+        </div>
+        <!-- radio button select only one option while checkbox can select all simultaneously -->
+
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">apple</label>
+            <!-- to group all radio button we have to assign same name -->
+        </div>
+        <div>
+            choose your subject
+            <input type="checkbox" id="math" name="subject" value="math">
+            <caption for="math">math</caption>
+            <input type="checkbox" id="science" name="subject" value="science">
+            <caption for="science">math</caption>
+            <input type="checkbox" id="english" name="subject" value="english">
+            <caption for="english">english</caption>
+        </div>
+        <!-- dropdowns -->
+        <div>
+            choose your profession
+            <select name="profession" id="profession">
+             <option  >select your option</option>
+                <option value="student"  >student</option>
+                <option value="dev"   selected>devloper</option>
+                <!-- selected specifies to automatic select the option -->
+            </select>
+             <option name="profession" >select your option</option>
+                <option value="student" name="profession" >student</option>
+                <option value="dev" name="profession"  selected>devloper</option>
+        </div>
+        <!-- input in range -->
+        <div>
+            <input type="range" id="volume" name="volume" min="0" max="100" step="10" value="70">
+            <label for="volume">select volume level</label>
+            <!-- step decide how much should increase on 1 click -->
+            <!-- value automatic set the value -->
+        </div>
+        <!-- textarea -->
+        <div>
+            <textarea id="feedback" name="feedback" rows="5"
+                cols="100"></textarea><!--by default 2 rows and 10 column given-->
+            <label for="feedback">please give your feedback</label>
+        </div>
+    </form>
+</body>
+
+</html>
